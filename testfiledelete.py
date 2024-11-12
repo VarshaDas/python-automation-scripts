@@ -16,6 +16,6 @@ if __name__ == "__main__":
     interval_seconds = 24 * 60 * 60
 
     while True:
-        delete_videos_with_prefix("/Users/vd056735/Downloads", "WE")
+        delete_videos_with_prefix("", "WE")
         print("Waiting for the next execution...")
         time.sleep(interval_seconds)
